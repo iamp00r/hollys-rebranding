@@ -1,20 +1,16 @@
-# 주요 목표
-할리스 브랜드 리브랜딩
+# React + Vite
 
-# 브랜치 전략
-((#이슈 번호))(update/bug/feature)/(브랜치 설명)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# 가이드
-최초 실행 (컴퓨터에 파일 다운로드 받는 법)
-1. vscode를 실행 후 터미널에 아래 코드를 입력
+Currently, two official plugins are available:
 
-git clone https://github.com/iamp00r/hollys-rebranding.git
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-이건 컴퓨터에 한 번만 하면 됨
-설치되면 그 이후에는 할 필요 없음
--------------------------------------------
-업데이트 됐을 때 갱신하는 법
+## React Compiler
 
-터미널에 아래 코드 입력
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-git pull origin master
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
